@@ -1,11 +1,11 @@
-from flask import Flask, request, jsonify, render_template
+YOfrom flask import Flask, request, jsonify, render_template
 import requests
 import time
 
 app = Flask(__name__)
 
 # Your actual Gemini API key
-GEMINI_API_KEY = 'AIzaSyD2rX64jQ0S4Pr8Ku5wyO48hhhbuYixe5A'
+GEMINI_API_KEY = ' Youse your API '
 
 # Gemini API endpoint
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
